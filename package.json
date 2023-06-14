@@ -1,0 +1,29 @@
+{
+  "name": "@mvbrazas/sample-react-components-2",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/mvbrazas"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.1",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "react": "^18.2.0",
+    "rollup": "^3.25.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ]
+}
